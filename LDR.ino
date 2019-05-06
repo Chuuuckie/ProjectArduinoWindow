@@ -1,26 +1,29 @@
 //include the servo library
 
 #include <Servo.h>
-
-//create a servo object called servo1 Servo servo1;
-
-Servo servo1; //There will be 2 Servos at this Point, but lets start with 1 only.
+Servo servo1;
 //Servo servo2;
 
-void setup() {
+void setup() 
+{
 
-  servo1.attach(9);
-  //servo2.attach(8) 2nd Servo attached
+  servo1.attach(8);
+  Serial.begin(9600);
+  //servo1.write(180);
 }
 
-void loop() { 
+void loop() 
+{ 
 
-  int lightValue = analogRead(A0);
+  int val = analogRead(A0);
+  int lightValue;
+  unsigned int AnalogValue;
+  AnalogValue = analogRead(A0);
 
-  lightValue = map (lightValue, 0, 1023, 0, 180);
-
+  lightValue = map(val, 10, 500, 0, 90);
+  delay(15);
   servo1.write(lightValue);
-
- 
- 
- }
+  Serial.println(AnalogValue);
+  Serial.println(lightValue);
+  
+}
