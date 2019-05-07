@@ -20,7 +20,8 @@ void loop()
   unsigned int AnalogValue;
   AnalogValue = analogRead(A0);
 
-  lightValue = map(val, 10, 500, 0, 90);
+  lightValue = map(val, 0, 762, 0, 180);
+
   delay(15);
   servo1.write(lightValue);
   Serial.println(AnalogValue);
