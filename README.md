@@ -57,6 +57,6 @@ https://www.farnell.com/datasheets/1682209.pdf
 
 ### This Project is Partially Curated and Sponsored by [SteemPress]()
 
-![logo_trans.png](https://cdn.steemitimages.com/DQmR1GX5UvUTiLNEH8r7UUFvNKVvgttxvi98HrKQuZiL4Qp/logo_trans.png)
+![logo_trans.png](https://cdn.steemitimages.com/DQmXf7oZ1Dx1QZ3o1NBjhwgkwpLFnySQazxmXzy2wFi5Yrz/logo_trans.png)
 
 <center> *Visit my Official Website at https://chuckunlimited.net* </center>
