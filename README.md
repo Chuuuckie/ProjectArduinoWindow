@@ -4,13 +4,12 @@ Arduino Automatic Blinds using Photoresistor
 
 ### BreadBoard
 
-<center> ![](https://cdn.steemitimages.com/DQmNPtj6PSELyKNzBuM5U73NYJsPTGnvrV7s56e1GQKVSYt/image.png)</center>
-
+![](https://cdn.steemitimages.com/DQmNPtj6PSELyKNzBuM5U73NYJsPTGnvrV7s56e1GQKVSYt/image.png)
 
 
 ### Schematic
 
-<center>![](https://cdn.steemitimages.com/DQmVXBQttD2jQ8PgqP4o7Fv7b5oq96xVpNhDi2bMrUenmKF/image.png)</center>
+![](https://cdn.steemitimages.com/DQmVXBQttD2jQ8PgqP4o7Fv7b5oq96xVpNhDi2bMrUenmKF/image.png)
 
 
 #### Details:
@@ -26,11 +25,20 @@ steemit.com/@chuuuckie - Isaac Bryle Jaim
 
 
 ### Hardware Specifications
+- Ldr Module
+- Arduino UNO
+- SG90 Servo Motor
 
 
 
 
-### References
+### References and Data Sheets
+
+http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf
+
+https://www.sunrom.com/p/light-sensing-module-ldr
+
+https://www.farnell.com/datasheets/1682209.pdf
 
 
 
@@ -46,3 +54,5 @@ steemit.com/@chuuuckie - Isaac Bryle Jaim
 [Solution from a Problem](https://steemit.com/steempress/@chuuuckie/projectautomaticwindowblinds-solutionfromaproblem-k49ev9r39w)
 
 []()
+
+### This Project is Partially Curated and Sponsored by [SteemPress]()
